@@ -6,9 +6,7 @@
 
 A comprehensive guide to understanding and implementing traditional convolution operations for image processing.
 
-<p align="center">
-  <img src="/api/placeholder/800/400" alt="Convolution Operation Visualization">
-</p>
+![Convolution Animation](https://raw.githubusercontent.com/ZaGrayWolf/Convolutions/main/Traditional_Convolutions/Tradtional_Convo_GIF.gif)
 
 ## 📋 Table of Contents
 
