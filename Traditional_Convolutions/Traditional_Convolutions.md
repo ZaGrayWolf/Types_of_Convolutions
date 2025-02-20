@@ -4,12 +4,6 @@
 [![Python](https://img.shields.io/badge/python-3.7+-blue.svg)](https://www.python.org/downloads/)
 [![NumPy](https://img.shields.io/badge/numpy-1.19+-blue.svg)](https://numpy.org/)
 
-# Traditional Image Convolutions 🖼️
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Python](https://img.shields.io/badge/python-3.7+-blue.svg)](https://www.python.org/downloads/)
-[![NumPy](https://img.shields.io/badge/numpy-1.19+-blue.svg)](https://numpy.org/)
-
 A comprehensive guide to understanding and implementing traditional convolution operations for image processing.
 
 <p align="center">
@@ -166,20 +160,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 <p align="center">
-Made with ❤️ by <a href="https://github.com/username">Your Name</a>
-</p>
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 📚 Resources
-
-- [Digital Image Processing - Gonzalez & Woods](https://www.amazon.com/Digital-Image-Processing-Rafael-Gonzalez/dp/0133356728)
-- [Deep Learning Book - Goodfellow et al.](https://www.deeplearningbook.org/)
-- [Convolution Arithmetic Tutorial](https://github.com/vdumoulin/conv_arithmetic)
-
----
-
-<p align="center">
-Made with ❤️ by <a href="https://github.com/username">Your Name</a>
+Made with ❤️ by <a href="https://github.com/ZaGrayWolf">ZaGrayWolf</a>
 </p>
