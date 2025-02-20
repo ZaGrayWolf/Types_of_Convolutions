@@ -1,4 +1,4 @@
-# Involution Convolutions: An Educational Overview
+# Involution Convolutions: An Overview
 
 ## Table of Contents
 1. [Introduction](#introduction)
