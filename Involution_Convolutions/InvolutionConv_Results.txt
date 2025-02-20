@@ -1,0 +1,53 @@
+Benchmarking with output channels = 64 (Small Output):
+
+Benchmarking Results for Involution Convolution:
+  Output Channels: 64
+  Kernel Size: 3
+  Stride: 2
+  Output Shape: (112, 112, 64)
+  Parameters: 0.45K
+  Total FLOPs: 43.35M
+  Multiplications: 21.68M
+  Divisions: 0.80M
+  Additions/Subtractions: 0.02B
+Latency Statistics:
+  Mean: 2.77ms
+  Std Dev: 0.10ms
+  Min: 2.63ms | Max: 3.22ms
+  P95: 2.95ms | P99: 3.04ms
+
+Benchmarking with output channels = 128 (Medium Output):
+
+Benchmarking Results for Involution Convolution:
+  Output Channels: 128
+  Kernel Size: 3
+  Stride: 2
+  Output Shape: (112, 112, 128)
+  Parameters: 0.64K
+  Total FLOPs: 86.70M
+  Multiplications: 43.35M
+  Divisions: 1.61M
+  Additions/Subtractions: 0.04B
+Latency Statistics:
+  Mean: 3.86ms
+  Std Dev: 0.34ms
+  Min: 3.51ms | Max: 7.18ms
+  P95: 3.98ms | P99: 4.21ms
+
+Benchmarking with output channels = 256 (Large Output):
+
+Benchmarking Results for Involution Convolution:
+  Output Channels: 256
+  Kernel Size: 3
+  Stride: 2
+  Output Shape: (112, 112, 256)
+  Parameters: 1.02K
+  Total FLOPs: 173.41M
+  Multiplications: 86.70M
+  Divisions: 3.21M
+  Additions/Subtractions: 0.08B
+Latency Statistics:
+  Mean: 6.31ms
+  Std Dev: 0.10ms
+  Min: 6.13ms | Max: 6.97ms
+  P95: 6.44ms | P99: 6.59ms
