@@ -11,7 +11,9 @@
 
 ## Introduction
 Involution Convolutions are a novel type of convolution operation designed to improve the efficiency and performance of convolutional neural networks (CNNs). Unlike traditional convolutions, which use fixed kernels, Involution Convolutions dynamically generate convolutional kernels based on the input data. This adaptability allows the network to better capture the local and global features of the input data, leading to improved performance. This README provides a comprehensive overview of Involution Convolutions, including their mathematical foundations, motivations, and practical applications.
+
 ![InvolveConv1](https://github.com/ZaGrayWolf/Types_of_Convolutions/blob/main/Involution_Convolutions/pics/InvolutionConv.jpeg)
+
 ## What are Involution Convolutions?
 Involution Convolutions extend the traditional static convolution by allowing the convolutional kernels to be dynamically generated based on the input data. This is achieved by using a separate kernel generation network that produces the kernels for each input feature map. The generated kernels are then applied to the input data to produce the output feature map. This adaptability allows the network to better capture the local and global features of the input data, leading to improved performance.
 
