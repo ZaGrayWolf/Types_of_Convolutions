@@ -56,7 +56,7 @@ Separable convolution factorizes the standard convolution into two separate oper
 
 Octave convolution splits feature maps into high-frequency and low-frequency components, processing them separately. This decomposition reduces spatial redundancy and enables the network to capture multi-scale features more efficiently.
 
-![Octave Convolution Diagram](https://raw.githubusercontent.com/Aravindlivewire/Octave-Convolution-PyTorch/master/octconv.png)
+
 
 **Key Points:**
 - Decomposes features into different frequency components.
@@ -69,7 +69,7 @@ Octave convolution splits feature maps into high-frequency and low-frequency com
 
 Dynamic convolution adapts its filters based on the input data. Rather than using a fixed set of filters, the convolution operation generates adaptive weights conditioned on the input, offering greater flexibility for handling diverse data patterns.
 
-![Dynamic Convolution Diagram](https://raw.githubusercontent.com/lmb-freiburg/dynamic_conv/master/assets/dynamic_conv.png)
+
 
 **Key Points:**
 - Filters are dynamically generated based on the input.
@@ -82,7 +82,6 @@ Dynamic convolution adapts its filters based on the input data. Rather than usin
 
 ODConv extends dynamic convolution by adapting filter weights along multiple dimensions—spatial, channel, and beyond. This omni-dimensional dynamic filtering allows the network to capture more complex patterns across various axes.
 
-![ODConv Diagram](https://raw.githubusercontent.com/YiHua-0109/ODConv/main/figs/odconv.png)
 
 **Key Points:**
 - Adapts filters in multiple dimensions.
@@ -95,7 +94,6 @@ ODConv extends dynamic convolution by adapting filter weights along multiple dim
 
 Kernel Warehouse maintains a bank of kernels and dynamically selects or aggregates them during inference. This strategy allows the network to choose the most relevant filters for each input, balancing performance with computational efficiency.
 
-![Kernel Warehouse Diagram](https://raw.githubusercontent.com/megvii-model/Kernel-Warehouse/main/assets/kernel_warehouse.png)
 
 **Key Points:**
 - Stores a repository of diverse kernels.
@@ -108,7 +106,7 @@ Kernel Warehouse maintains a bank of kernels and dynamically selects or aggregat
 
 Deformable convolution introduces learnable offsets to the standard grid sampling process in convolution operations. This enables the network to adjust its receptive field dynamically, making it more effective at handling geometric transformations and object deformations.
 
-![Deformable Convolution Diagram](https://raw.githubusercontent.com/msracver/Deformable-ConvNets/master/docs/deformable_conv.png)
+
 
 **Versions:**
 - **V1:** Introduces learnable offsets to the sampling grid.
@@ -126,7 +124,7 @@ Deformable convolution introduces learnable offsets to the standard grid samplin
 
 Involution inverts the traditional convolution process by generating spatially adaptive kernels based on the input itself. This content-adaptive mechanism provides each spatial location with a unique filter, efficiently modeling local patterns with fewer parameters.
 
-![Involution Diagram](https://raw.githubusercontent.com/lxtGH/involution/main/figures/overview.png)
+
 
 **Key Points:**
 - Generates kernels dynamically from the input content.
