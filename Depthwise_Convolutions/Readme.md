@@ -6,7 +6,7 @@ A comprehensive guide to understanding depthwise convolutions - a key innovation
 
 Let's start by seeing depthwise convolutions in action:
 
-![Depthwise Convolution Animation](https://raw.githubusercontent.com/ZaGrayWolf/Convolutions/main/Depthwise_Convolutions/Depthwise_Convo_GIF.gif)
+![Depthwise Convolution Animation](https://github.com/ZaGrayWolf/Types_of_Convolutions/blob/main/Depthwise_Convolutions/depthwise-convolution-animation-3x3-kernel.gif)
 
 This animation illustrates the fundamental difference between depthwise and traditional convolutions. Notice how each channel (red, green, and blue) is processed independently with its own specific kernel, making the operation more computationally efficient while maintaining spatial relationships.
 
