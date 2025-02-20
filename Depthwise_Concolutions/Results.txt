@@ -1,0 +1,57 @@
+Benchmarking with output channels = 64 (Small Output):
+Depthwise Convolution
+Kernel Size: (3, 3)
+Input Shape: (224, 224, 3)
+Output Shape: (111, 111, 64)
+Parameters: 0.03K
+Total FLOPs: 21.62M
+Multiplications: 0.33M
+Divisions: 0.79M
+Additions and Subtractions: 20.50M
+Latency Statistics:
+  Mean: 0.28ms
+  Std Dev: 0.03ms
+  Min: 0.26ms
+  Max: 0.57ms
+  P95: 0.29ms
+  P99: 0.34ms
+
+
+
+Benchmarking with output channels = 128 (Medium Output):
+Depthwise Convolution
+Kernel Size: (3, 3)
+Input Shape: (224, 224, 3)
+Output Shape: (111, 111, 128)
+Parameters: 0.03K
+Total FLOPs: 42.91M
+Multiplications: 0.33M
+Divisions: 1.58M
+Additions and Subtractions: 41.00M
+Latency Statistics:
+  Mean: 0.25ms
+  Std Dev: 0.01ms
+  Min: 0.25ms
+  Max: 0.36ms
+  P95: 0.28ms
+  P99: 0.32ms
+
+
+
+Benchmarking with output channels = 256 (Large Output):
+Depthwise Convolution
+Kernel Size: (3, 3)
+Input Shape: (224, 224, 3)
+Output Shape: (111, 111, 256)
+Parameters: 0.03K
+Total FLOPs: 85.50M
+Multiplications: 0.33M
+Divisions: 3.15M
+Additions and Subtractions: 82.01M
+Latency Statistics:
+  Mean: 0.25ms
+  Std Dev: 0.01ms
+  Min: 0.25ms
+  Max: 0.32ms
+  P95: 0.27ms
+  P99: 0.31ms
