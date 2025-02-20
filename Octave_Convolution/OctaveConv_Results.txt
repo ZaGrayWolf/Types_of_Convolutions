@@ -1,0 +1,55 @@
+Benchmarking with output channels = 64 (Small Output):
+Octave Convolution (α=0.5)
+Kernel Size: 3x3
+Input Shape: (224, 224, 3)
+Output Shape: (111, 111, 64)
+Parameters: 1.86K
+Total FLOPs: 42.58M
+Multiplications: 21.29M
+Divisions: 0.79M
+Additions and Subtractions: 20.50M
+Latency Statistics:
+  Mean: 3.46ms
+  Std Dev: 0.33ms
+  Min: 2.08ms
+  Max: 3.96ms
+  P95: 3.85ms
+  P99: 3.95ms
+
+Benchmarking with output channels = 128 (Medium Output):
+Octave Convolution (α=0.5)
+Kernel Size: 3x3
+Input Shape: (224, 224, 3)
+Output Shape: (111, 111, 128)
+Parameters: 3.71K
+Total FLOPs: 85.16M
+Multiplications: 42.58M
+Divisions: 1.58M
+Additions and Subtractions: 41.00M
+Latency Statistics:
+  Mean: 5.96ms
+  Std Dev: 0.47ms
+  Min: 4.38ms
+  Max: 8.31ms
+  P95: 6.60ms
+  P99: 6.75ms
+
+
+Benchmarking with output channels = 256 (Large Output):
+Octave Convolution (α=0.5)
+Kernel Size: 3x3
+Input Shape: (224, 224, 3)
+Output Shape: (111, 111, 256)
+Parameters: 7.42K
+Total FLOPs: 170.33M
+Multiplications: 85.16M
+Divisions: 3.15M
+Additions and Subtractions: 82.01M
+Latency Statistics:
+  Mean: 9.44ms
+  Std Dev: 0.81ms
+  Min: 5.75ms
+  Max: 11.49ms
+  P95: 10.13ms
+  P99: 10.32ms
+
