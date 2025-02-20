@@ -8,7 +8,7 @@ This repository is an educational resource for exploring various convolution met
 
 Traditional convolution is the foundation of convolutional neural networks (CNNs). It involves sliding a set of learnable filters (kernels) over the input data (e.g., an image) to generate feature maps. Each filter performs a dot product with local regions, capturing spatial features such as edges, textures, and shapes.
 
-![Traditional Convolution Diagram](https://upload.wikimedia.org/wikipedia/commons/6/6b/Convolution_2d_example.gif)
+//![Traditional Convolution Diagram](https://upload.wikimedia.org/wikipedia/commons/6/6b/Convolution_2d_example.gif)
 
 **Key Points:**
 - Aggregates spatial and channel information simultaneously.
@@ -21,7 +21,7 @@ Traditional convolution is the foundation of convolutional neural networks (CNNs
 
 Depthwise convolution processes each input channel independently using a single filter per channel. This reduces computation significantly by not mixing channels during the convolution process. It is especially popular in lightweight network architectures.
 
-![Depthwise Convolution Diagram](https://miro.medium.com/max/700/1*jBys7Q8s7rYvB6g8YPhX0w.png)
+//![Depthwise Convolution Diagram](https://miro.medium.com/max/700/1*jBys7Q8s7rYvB6g8YPhX0w.png)
 
 **Key Points:**
 - Processes channels separately, reducing computation.
