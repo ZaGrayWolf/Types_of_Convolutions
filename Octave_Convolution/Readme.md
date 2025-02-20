@@ -1,4 +1,4 @@
-# Octave Convolution: An Educational Overview
+# Octave Convolution: An Overview
 
 ## Table of Contents
 1. [Introduction](#introduction)
@@ -17,6 +17,8 @@ Octave Convolution is a method that divides the input feature maps into two grou
 
 ## Mathematical Understanding
 The core idea behind Octave Convolution is to decompose the input feature maps into two groups: high-frequency (H) and low-frequency (L) components. The convolution operation is then applied separately to these groups. The mathematical formulation can be summarized as follows:
+
+![Octave Convolution](https://github.com/ZaGrayWolf/Types_of_Convolutions/blob/main/Octave_Convolution/pics/Octave_Conv_v1.jpeg)
 
 1. **Decomposition**:
    \[
@@ -38,6 +40,8 @@ The core idea behind Octave Convolution is to decompose the input feature maps i
    Y = Y_H + Y_L
    \]
    where \( Y \) is the output feature map.
+
+![Octave Convolution ](https://github.com/ZaGrayWolf/Types_of_Convolutions/blob/main/Octave_Convolution/pics/Octave_Conv_v2.jpeg)
 
 ## Motivations and Use Cases
 The primary motivation behind Octave Convolution is to reduce the computational cost of CNNs while preserving their performance. This is particularly relevant in scenarios where resources are constrained, such as:
