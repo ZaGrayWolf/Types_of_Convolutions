@@ -78,4 +78,23 @@ odconv = ODConv(in_channels=32, out_channels=64, kernel_size=3, num_kernels=4)
 x = torch.randn(1, 32, 64, 64)
 y = odconv(x)
 ```
+## Advantages and Limitations
 
+### Advantages
+- **Reduced Computational Cost**: Significant reduction in the number of operations required.
+- **Preserved Accuracy**: Maintains model accuracy with minimal performance degradation.
+- **Scalability**: Suitable for large-scale deployments and resource-constrained environments.
+
+### Limitations
+- **Complexity**: Increased complexity in the network architecture.
+- **Implementation Overhead**: Requires careful implementation and tuning.
+- **Limited Applicability**: May not be suitable for all types of neural networks or applications.
+
+## References
+- [Omni-Dimensional Dynamic Convolution](https://github.com/OSVAI/ODConv) - This repository provides an official PyTorch implementation of Omni-Dimensional Dynamic Convolution.
+- [Omni-Dimensional Dynamic Convolution - arXiv.org](https://arxiv.org/abs/2209.07947) - This paper introduces the concept of ODConv and provides a detailed explanation of its implementation and benefits.
+- [ICLR 2022 Omni-Dimensional Dynamic Convolution Spotlight](https://iclr.cc/virtual/2022/spotlight/6456) - This spotlight presentation provides an overview of ODConv and its applications.
+
+Feel free to explore these resources for a deeper understanding of ODConv and its applications.
+
+This `README.md` file provides a comprehensive overview of ODConv, making it suitable for educational purposes. It covers the basics, mathematical formulation, motivations, implementation, and references for further reading.
