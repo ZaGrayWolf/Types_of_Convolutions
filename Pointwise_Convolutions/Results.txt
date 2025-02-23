@@ -48,3 +48,16 @@ Latency Statistics:
   Max: 21.81ms
   P95: 19.98ms
   P99: 20.31ms
+
+FLOPs with FMA
+When 
+𝑘 = 64
+Total FLOPs = 2,377,953 FLOPs
+
+When 
+𝑘 = 128
+Total FLOPs = 4,743,585 FLOPs
+
+When 
+𝑘 = 256
+Total FLOPs = 9,474,849 FLOPs
