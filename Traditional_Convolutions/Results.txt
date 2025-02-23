@@ -48,3 +48,9 @@ Latency Statistics:
   Max: 4.33ms
   P95: 4.24ms
   P99: 4.32ms
+
+FLOPs with FMA
+
+Case 1: 22,079,232 FLOPs (64)
+Case 2: 44,158,464 FLOPs (128)
+Case 3: 88,316,928 FLOPs (256)
