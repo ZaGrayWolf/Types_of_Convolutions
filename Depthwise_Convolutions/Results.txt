@@ -55,3 +55,15 @@ Latency Statistics:
   Max: 0.32ms
   P95: 0.27ms
   P99: 0.31ms
+
+FLOPS using FMA
+Depthwise Separable Convolution with Output Shape (111, 111, 64):
+2747583 FLOPs 
+
+Depthwise Separable Convolution with Output Shape (111, 111, 128):
+5113215 FLOPs
+
+Depthwise Separable Convolution with Output Shape (111, 111, 256):
+9844479 FLOPs
+​
+  
