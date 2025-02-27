@@ -1,58 +1,48 @@
 Benchmarking with output channels = 64 (Small Output):
-Dynamic Convolution
+True Dynamic Convolution
 Kernel Size: 3x3
 Input Shape: (224, 224, 3)
-Output Shape: (111, 111, 64)
-Parameters: 1.79K
-Total FLOPs: 42.58M
-Multiplications: 21.29M
-Divisions: 0.79M
-Additions and Subtractions: 0.02B
+Output Shape: (112, 112, 64)
+Parameters: 13.91K
+Total FLOPs: 42.71M
 Latency Statistics:
-  Mean: 1.77ms
-  Std Dev: 0.17ms
-  Min: 0.80ms
-  Max: 2.19ms
-  P95: 1.90ms
-  P99: 2.07ms
+  Mean: 10.78ms
+  Std Dev: 0.97ms
+  Min: 9.81ms
+  Max: 14.45ms
+  P95: 11.79ms
+  P99: 13.92ms
 
 
 
 Benchmarking with output channels = 128 (Medium Output):
-Dynamic Convolution
+True Dynamic Convolution
 Kernel Size: 3x3
 Input Shape: (224, 224, 3)
-Output Shape: (111, 111, 128)
-Parameters: 3.58K
-Total FLOPs: 85.16M
-Multiplications: 42.58M
-Divisions: 1.58M
-Additions and Subtractions: 0.04B
+Output Shape: (112, 112, 128)
+Parameters: 27.80K
+Total FLOPs: 85.28M
 Latency Statistics:
-  Mean: 3.04ms
-  Std Dev: 0.35ms
-  Min: 1.46ms
-  Max: 5.33ms
-  P95: 3.29ms
-  P99: 3.69ms
+  Mean: 19.88ms
+  Std Dev: 2.01ms
+  Min: 18.57ms
+  Max: 28.11ms
+  P95: 21.53ms
+  P99: 26.79ms
 
 
 
 Benchmarking with output channels = 256 (Large Output):
-Dynamic Convolution
+True Dynamic Convolution
 Kernel Size: 3x3
 Input Shape: (224, 224, 3)
-Output Shape: (111, 111, 256)
-Parameters: 7.17K
-Total FLOPs: 170.33M
-Multiplications: 85.16M
-Divisions: 3.15M
-Additions and Subtractions: 0.08B
+Output Shape: (112, 112, 256)
+Parameters: 55.58K
+Total FLOPs: 170.40M
 Latency Statistics:
-  Mean: 5.04ms
-  Std Dev: 0.59ms
-  Min: 4.04ms
-  Max: 5.81ms
-  P95: 5.59ms
-  P99: 5.66ms
-
+  Mean: 48.31ms
+  Std Dev: 2.99ms
+  Min: 40.04ms
+  Max: 57.23ms
+  P95: 51.17ms
+  P99: 56.02ms
