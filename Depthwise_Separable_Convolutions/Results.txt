@@ -1,50 +1,47 @@
 Benchmarking with output channels = 64 (Small Output):
 Kernel Size: (3, 3)
 Input Shape: (224, 224, 3)
-Output Shape: (111, 111, 3)
-Parameters: 0.03K
-Total FLOPs: 0.67M
-Multiplications: 0.33M
-Divisions: 0.04M
-Additions and Subtractions: 0.30M
+Output Shape: (111, 111, 64)
+Parameters: 0.22K
+Total FLOPs: 6.97M
+  - Depthwise FLOPs: 0.67M
+  - Pointwise FLOPs: 6.31M
 Latency Statistics:
-  Mean: 0.28ms
-  Std Dev: 0.03ms
-  Min: 0.26ms
-  Max: 0.59ms
-  P95: 0.31ms
-  P99: 0.34ms
+  Mean: 0.87ms
+  Std Dev: 0.49ms
+  Min: 0.68ms
+  Max: 3.98ms
+  P95: 1.37ms
+  P99: 3.26ms
 
 Benchmarking with output channels = 128 (Medium Output):
 Kernel Size: (3, 3)
 Input Shape: (224, 224, 3)
-Output Shape: (111, 111, 3)
-Parameters: 0.03K
-Total FLOPs: 0.67M
-Multiplications: 0.33M
-Divisions: 0.04M
-Additions and Subtractions: 0.30M
+Output Shape: (111, 111, 128)
+Parameters: 0.41K
+Total FLOPs: 13.28M
+  - Depthwise FLOPs: 0.67M
+  - Pointwise FLOPs: 12.62M
 Latency Statistics:
-  Mean: 0.25ms
-  Std Dev: 0.01ms
-  Min: 0.24ms
-  Max: 0.35ms
-  P95: 0.27ms
-  P99: 0.32ms
+  Mean: 1.78ms
+  Std Dev: 0.75ms
+  Min: 1.16ms
+  Max: 5.44ms
+  P95: 3.11ms
+  P99: 4.70ms
 
 Benchmarking with output channels = 256 (Large Output):
 Kernel Size: (3, 3)
 Input Shape: (224, 224, 3)
-Output Shape: (111, 111, 3)
-Parameters: 0.03K
-Total FLOPs: 0.67M
-Multiplications: 0.33M
-Divisions: 0.04M
-Additions and Subtractions: 0.30M
+Output Shape: (111, 111, 256)
+Parameters: 0.80K
+Total FLOPs: 25.90M
+  - Depthwise FLOPs: 0.67M
+  - Pointwise FLOPs: 25.23M
 Latency Statistics:
-  Mean: 0.25ms
-  Std Dev: 0.01ms
-  Min: 0.24ms
-  Max: 0.35ms
-  P95: 0.27ms
-  P99: 0.31ms
+  Mean: 2.13ms
+  Std Dev: 0.70ms
+  Min: 1.54ms
+  Max: 5.35ms
+  P95: 3.71ms
+  P99: 5.06ms
