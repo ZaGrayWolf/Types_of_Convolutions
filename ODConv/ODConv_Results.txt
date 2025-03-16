@@ -1,57 +1,57 @@
 Benchmarking with output channels = 64 (Small Output):
-Omni-Dimensional Dynamic Convolution (ODConv)
-Kernel Size: 3x3
-Input Shape: (224, 224, 3)
-Output Shape: (111, 111, 64)
-Parameters: 1.79K
-Total FLOPs: 42.58M
-Multiplications: 21.29M
-Divisions: 0.79M
-Additions and Subtractions: 20.50M
+
+Benchmarking Results for ODConv with Dynamic Attention on 4 Dimensions:
+  Output Channels: 64
+  Kernel Size: 3
+  Stride: 2
+  Output Shape: (112, 112, 64)
+  Parameters: 7.14K
+  Total FLOPs: 43.51M
+  Multiplications: 21.68M
+  Divisions: 0.80M
+  Additions/Subtractions: 20.87M
 Latency Statistics:
-  Mean: 1.98ms
-  Std Dev: 0.55ms
-  Min: 0.91ms
-  Max: 3.16ms
-  P95: 2.99ms
-  P99: 3.13ms
+  Mean: 0.84ms
+  Std Dev: 0.31ms
+  Min: 0.56ms | Max: 2.60ms
+  P95: 1.33ms | P99: 2.11ms
 
 
 
 Benchmarking with output channels = 128 (Medium Output):
-Omni-Dimensional Dynamic Convolution (ODConv)
-Kernel Size: 3x3
-Input Shape: (224, 224, 3)
-Output Shape: (111, 111, 128)
-Parameters: 3.58K
-Total FLOPs: 85.16M
-Multiplications: 42.58M
-Divisions: 1.58M
-Additions and Subtractions: 41.00M
+
+Benchmarking Results for ODConv with Dynamic Attention on 4 Dimensions:
+  Output Channels: 128
+  Kernel Size: 3
+  Stride: 2
+  Output Shape: (112, 112, 128)
+  Parameters: 14.24K
+  Total FLOPs: 86.87M
+  Multiplications: 43.35M
+  Divisions: 1.61M
+  Additions/Subtractions: 41.75M
 Latency Statistics:
-  Mean: 3.67ms
-  Std Dev: 0.64ms
-  Min: 2.36ms
-  Max: 6.99ms
-  P95: 4.54ms
-  P99: 4.68ms
+  Mean: 1.10ms
+  Std Dev: 0.30ms
+  Min: 0.86ms | Max: 2.45ms
+  P95: 1.67ms | P99: 2.31ms
 
 
 
 Benchmarking with output channels = 256 (Large Output):
-Omni-Dimensional Dynamic Convolution (ODConv)
-Kernel Size: 3x3
-Input Shape: (224, 224, 3)
-Output Shape: (111, 111, 256)
-Parameters: 7.17K
-Total FLOPs: 170.33M
-Multiplications: 85.16M
-Divisions: 3.15M
-Additions and Subtractions: 82.01M
+
+Benchmarking Results for ODConv with Dynamic Attention on 4 Dimensions:
+  Output Channels: 256
+  Kernel Size: 3
+  Stride: 2
+  Output Shape: (112, 112, 256)
+  Parameters: 28.45K
+  Total FLOPs: 173.58M
+  Multiplications: 86.70M
+  Divisions: 3.21M
+  Additions/Subtractions: 83.49M
 Latency Statistics:
-  Mean: 6.41ms
-  Std Dev: 0.11ms
-  Min: 5.59ms
-  Max: 6.94ms
-  P95: 6.50ms
-  P99: 6.58ms
+  Mean: 1.27ms
+  Std Dev: 0.19ms
+  Min: 1.15ms | Max: 2.13ms
+  P95: 1.68ms | P99: 2.02ms
