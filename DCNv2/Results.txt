@@ -1,0 +1,53 @@
+Benchmarking with output channels = 64 (Small Output):
+
+Benchmarking Results for Deformable Convolution v2:
+  Output Channels: 64
+  Kernel Size: 3
+  Stride: 2
+  Output Shape: (1, 64, 112, 112)
+  Parameters: 2.55K
+  Total FLOPs: 113.36M
+  Multiplications: 56.68M
+  Divisions: 0.00M
+  Additions/Subtractions: 0.06B
+Latency Statistics:
+  Mean: 4.43ms
+  Std Dev: 1.39ms
+  Min: 3.68ms | Max: 12.68ms
+  P95: 5.16ms | P99: 12.35ms
+
+Benchmarking with output channels = 128 (Medium Output):
+
+Benchmarking Results for Deformable Convolution v2:
+  Output Channels: 128
+  Kernel Size: 3
+  Stride: 2
+  Output Shape: (1, 128, 112, 112)
+  Parameters: 4.34K
+  Total FLOPs: 208.09M
+  Multiplications: 104.05M
+  Divisions: 0.00M
+  Additions/Subtractions: 0.10B
+Latency Statistics:
+  Mean: 6.72ms
+  Std Dev: 6.14ms
+  Min: 4.43ms | Max: 57.23ms
+  P95: 13.90ms | P99: 28.26ms
+
+Benchmarking with output channels = 256 (Large Output):
+
+Benchmarking Results for Deformable Convolution v2:
+  Output Channels: 256
+  Kernel Size: 3
+  Stride: 2
+  Output Shape: (1, 256, 112, 112)
+  Parameters: 7.92K
+  Total FLOPs: 397.56M
+  Multiplications: 198.78M
+  Divisions: 0.00M
+  Additions/Subtractions: 0.20B
+Latency Statistics:
+  Mean: 6.58ms
+  Std Dev: 2.68ms
+  Min: 5.54ms | Max: 28.27ms
+  P95: 8.68ms | P99: 19.35ms
